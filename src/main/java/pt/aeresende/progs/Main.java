@@ -9,5 +9,6 @@ public class Main {
         System.out.println(StringUtils.reverse(nome));
         System.out.println(StringUtils.abbreviate(nome, 14));
         System.out.println(StringUtils.center("3F", 10, '*'));
+        System.out.println(StringUtils.repeat("-", 20));
     }
 }
